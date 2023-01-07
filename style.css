@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    
+  }
+  img{max-width: 100%;}
+
+  /* This is a banner */
+  .banner-section {
+    background-image: url("img/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: auto;
+    height: 90vh;
+    background-size: cover;
+  }
+  .text-section {
+    width: 500px;
+    text-align: right;
+    float: right;
+    margin-right: 230px;
+    margin-top: 200px;
+  }
+  .text-section h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+  }
+  .posible-color {
+    color: #f15b22;
+  }
+
+  .text-section p {
+    margin-bottom: 30px;
+    line-height: 27px;
+  }
+  .primary-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: #F15B22;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+
+  /* This is a about section */
+  .container{width: 1200px; margin: auto;}
+  .about-item {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .img-item {
+    width: 600px;
+  }
+  .text-itam {
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 80px;
+  }
+  
+  .text-itam h1 {
+    font-size: 38px;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  .text-itam p {
+    width: 350px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .text-itam ul {
+    list-style: none;
+  }
+  .text-itam li {
+    line-height: 36px;
+    font-size: 15px;
+  }
+  .icon {
+    margin-right: 5px;
+    color: green;
+  }
+
+  /* This is a plan section */
+  .heading h1 {
+    text-align: center;
+    font-size: 33px;
+    padding: 59px 0px 10px 0px;
+  }
+  .four-plan {
+    display: flex;
+    margin: 70px 0px;
+  }
+  .plan-item {
+    width: 24%;
+    text-align: center;
+  }
+  .four-plan h1 {
+    padding: 15px 0px;
+    font-weight: 600;
+  }
+  .four-plan h5 {
+    font-size: 18px;
+    color: gray;
+    font-weight: 600;
+  }
+
+  /* This is a extra section */
+  .full-img-section {
+    display: flex;
+  }
+  .left-section{width: 49%;}
+  .left-section img {
+    height: 100%;
+  }
+  .misson-text {
+    width: 49%;
+    padding-top: 100px;
+    padding-left: 80px;
+    background: #6262e6;
+  }
+  .misson-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .misson-text p {
+    width: 600px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  .signature-pic {
+    margin-top: 27px;
+  }
+
+/* This is a gradian section */
+  .Gradian-bg {
+    background-image: url("img/gradient2.png"), url("img/watch.png");
+    background-repeat: no-repeat;
+    margin: 100px 0px;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 50px;
+    border-radius: 10px;
+  }
+  .left-item {
+    padding: 65px 0px;
+  }
+  .left-item h1 {
+    font-size: 40px;
+    width: 550px;
+    color: white;
+    margin-bottom: 23px;
+  }
+  .call-btn {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: tomato;
+  }
+
+/* This is a footer section */
+
+  .balck-footer {
+    background:#181616;;
+  }
+  .footer-section {
+    padding: 100px 0px;
+    display: flex;
+  }
+  .left-text {
+    width: 700px;
+  }
+  .left-text h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .left-text p {
+    width: 500px;
+    margin-bottom: 30px;
+    line-height: 26px;
+    font-weight: 500;
+    color: white;
+  }
+  .left-text h5 {
+    margin-bottom: 23px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .left-icon img {
+    margin-right: 15px;
+  }
+  .right-text {
+    width: 480px;
+  }
+  .right-text h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .subscribe-input {
+    padding: 20px 50px 20px 20px;
+    border: 2px solid white;
+    background: black;
+    font-size: 20px;
+    font-weight: 600;
+    overflow: hidden;
+    margin: 30px 0px 40px 0px;
+    border-radius: 10px;
+  }
+  .subscribe-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: tomato;
+  }
+  .subscribe-input::placeholder{color:#ffffff}
+
+  /* website ends */
+
+  
+  
